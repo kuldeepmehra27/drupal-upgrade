@@ -26,8 +26,20 @@ https://www.drupal.org/docs/upgrading-drupal/drupal-8-and-higher
 
 ## Tools for upgrading ##
 
-The other module is the [upgrade rector](https://www.drupal.org/project/upgrade_rector). This module offers automated code fix suggestions to make your modules compatible with Drupal 9.  It only has partial coverage for deprecated APIs. This is for Drupal 8 only and is still a work in progress.
+#### Drupal check ####
+Drupal Check can scan for use of @deprecated code and suggest a fix, as well as optionally perform static analysis. This makes it easier to locate the parts of your codebase that will need to be updated in order ensure Drupal 9 compatibility.
+Follow this [link](https://github.com/mglaman/drupal-check) to intall drupal check.
+[Check this](https://mglaman.dev/blog/proper-introduction-drupal-check) for more details.
+
+#### Drupal rector #### 
+Drupal Rector is a tool that automates the process of updating Drupal code from one version to another. Follow this [link](https://github.com/palantirnet/drupal-rector) to install drupal rector.
+
+#### Upgrade rector ####
+[Upgrade rector](https://www.drupal.org/project/upgrade_rector) module offers automated code fix suggestions to make your modules compatible with Drupal 9.  It only has partial coverage for deprecated APIs. This is for Drupal 8 only and is still a work in progress.
 It is important that the 'upgrade reactor' module fixed automatically more than 50% of the updates of the 200 most used modules.
+
+
+
 
 
 
