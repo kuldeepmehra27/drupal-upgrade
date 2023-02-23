@@ -2,7 +2,7 @@
 
 Upgrading from Drupal 8 to Drupal 9 involves the following steps:
 
-1. **Review your site's modules and themes:** Before starting the upgrade process, you should review your site's modules and themes to ensure that they are compatible with Drupal 9. Any modules or themes that are not compatible will need to be updated or replaced before upgrading.
+1. **Review your site's modules and themes:** Before starting the upgrade process, you should review your site's modules and themes to ensure that they are compatible with Drupal 9. Any modules or themes that are not compatible will need to be updated or replaced before upgrading. Means If we cannot find any contributed module/themes that is compatible with Drupal 9, we will need to convert it into a custom module.
 
 2. **Ensure that your Drupal 8 site is up-to-date:** Before upgrading to Drupal 9, you should ensure that your Drupal 8 site is up-to-date with the latest updates and patches.
 
