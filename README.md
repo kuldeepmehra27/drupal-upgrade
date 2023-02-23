@@ -13,3 +13,6 @@ Drupal upgrades are required for several reasons, including:
 **Long-term support:** Upgrading Drupal is necessary for receiving long-term support from the Drupal community. Drupal versions typically have a limited lifespan of active support and security updates, so upgrading to newer versions is necessary to ensure that your site remains secure and supported.
 
 In summary, Drupal upgrades are important for security, bug fixes, new features and functionality, compatibility, and long-term support. By keeping your Drupal site up-to-date, you can help to ensure that it remains secure, reliable, and functional for your users.
+
+
+[Change records for Drupal core](https://www.drupal.org/list-changes/drupal)
