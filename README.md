@@ -16,3 +16,5 @@ In summary, Drupal upgrades are important for security, bug fixes, new features 
 
 
 [Change records for Drupal core](https://www.drupal.org/list-changes/drupal)
+
+:house: [Home Page](README.md) | [Next Page >>](drupal-8-to-9-upgrade.md)
