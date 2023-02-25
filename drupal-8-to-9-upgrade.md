@@ -40,6 +40,6 @@ It is important that the 'upgrade reactor' module fixed automatically more than 
 
 
 
-
+:house: [Home Page](README.md) | [<< Previous Page](README.md) | [Next Page >>](drupal-8-to-9-demo.md)
 
 
