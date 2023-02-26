@@ -28,7 +28,7 @@ drush cr
    
    ![Composer outdated](/images/composer-outdated-project.png)
    
-6. We need to remove drupal/console from Drupal project because it requires **Symfony version 3**, which is not compatible with Drupal 9 that requires at least Symfony version 4, you can do so using Composer.
+6. We need to remove **drupal/console** from Drupal project because it requires **Symfony version 3**, which is not compatible with Drupal 9 that requires at least **Symfony version 4**, you can do so using Composer.
     
     **composer remove drupal/console**
     
