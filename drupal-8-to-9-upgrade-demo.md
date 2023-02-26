@@ -87,6 +87,7 @@ drush cr
     ![Drupal9](/images/drupal9.png)
     ![Drush status](/images/drush-staus-d9.png)
     
-#### Note: By using this repository as a guide, you can save time and effort when upgrading from Drupal 8 to Drupal 9. However, it's important to note that every Drupal site is unique, so you may still encounter challenges or issues during the upgrade process. It's recommended to thoroughly test your site after the upgrade and to have a backup plan in case anything goes wrong.####
+#### Note: By using this repository as a guide, you can save time and effort when upgrading from Drupal 8 to Drupal 9. However, it's important to note that every Drupal site is unique, so you may still encounter challenges or issues during the upgrade process. It's recommended to thoroughly test your site after the upgrade and to have a backup plan in case anything goes wrong. ####
     
-    :house: [Home Page](README.md) | [<< Previous Page](drupal-8-to-9-upgrade.md)
+    
+:house: [Home Page](README.md) | [<< Previous Page](drupal-8-to-9-upgrade.md)
