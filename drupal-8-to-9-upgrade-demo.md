@@ -78,4 +78,4 @@ drush cr
 12. After updating the Drupal core and its dependencies, you will need to update any custom modules and themes that you have. You can use the **Drupal Check library to check for any deprecated code** and then **remove it using the Drupal Rector library** or manually remove the deprecated code.
  
     ![Drupal9](/images/drupal9.png)
-    ![Drush status](/images/drush-status.png)
+    ![Drush status](/images/drush-staus-d9.png)
