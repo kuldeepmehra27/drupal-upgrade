@@ -28,7 +28,11 @@ drush cr
    
    ![Composer outdated](/images/composer-outdated-project.png)
    
-6. Execute the following command to update Drupal
+6. We need to remove drupal/console from Drupal project because it requires **Symfony version 3**, which is not compatible with Drupal 9 that requires at least Symfony version 4, you can do so using Composer.
+    
+    **composer remove drupal/console**
+    
+   Now, Execute the following command to update Drupal
 
    **composer require drupal/core-recommended:^9.5.3 drupal/core-composer-scaffold:^9.5.3  drupal/core:^9.5.3 drupal/core-dev:^9.5.3 --update-with-all-dependencies**
    
