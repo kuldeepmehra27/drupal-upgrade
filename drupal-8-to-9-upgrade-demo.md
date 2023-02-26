@@ -8,20 +8,23 @@ Upgrading Drupal 8 to 9 using Composer is a more efficient and streamlined proce
 
     ![Drupal 8 status](/images/drupal8-status.png)
 
-3. Next need to install **upgrade_status** module.
+3. To proceed with the Drupal 8 to 9 upgrade process, the next step is to install the **upgrade_status **module. This module helps to identify any issues with the site before and after the upgrade.
 ```
 composer require drupal/upgrade_status
 drush en upgrade_status
 drush cr
 ```
-4. Goto this location **/admin/reports/upgrade-status**. It will show compatibility of Drupal 9.
+4. Once you have installed the upgrade_status module, you can navigate to the path **/admin/reports/upgrade-status** on your Drupal site. This will show the compatibility of your site with Drupal 9 and will highlight any issues that need to be resolved before proceeding with the upgrade.
 
    ![Drupal upgrade](/images/D9-upgrade-status.png)
    ![Drupal upgrade](/images/D9-upgrade-status1.png)
 
-5. You can run below command to check outdated project.
-
+5. To check for outdated projects in your Drupal site, you can use the following command: 
+   
    **composer outdated drupal/***
+   
+     This will show a list of outdated projects and their current versions, which can help you decide which packages need to be updated before proceeding with the Drupal 9 upgrade.
+
    
    ![Composer outdated](/images/composer-outdated-project.png)
    
@@ -55,7 +58,7 @@ drush cr
    
    ![Symfony process outdated](/images/composer-outdated-process.png)
 
-  Note: You can use **composer why** to check dependency of package For example, if you run **composer why symfony/process**, Composer will show you the list of packages that required symfony/process, along with their versions. This information can help you to understand the dependency tree of your project and identify which packages are necessary for your project to function correctly.
+      **Note:** You can use **composer why** to check dependency of package For example, if you run **composer why symfony/process**, Composer will show you the list of packages that required symfony/process, along with their versions. This information can help you to understand the dependency tree of your project and identify which packages are necessary for your project to function correctly.
   
 9. Your final command to update Drupal with the necessary dependencies would be: 
 
