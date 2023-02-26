@@ -67,7 +67,7 @@ drush cr
 
     **drush updb**
     
-   Or You can run **update.php**, you need to log in as an administrator and navigate to yoursite.com/update.php in your web browser. This will trigger the update script to run and display a progress bar showing the status of the updates being applied. Once the updates have been completed, you will be redirected back to the site's home page.
+       Or You can run **update.php**, you need to log in as an administrator and navigate to yoursite.com/update.php in your web browser. This will trigger the update script to run and display a progress bar showing the status of the updates being applied. Once the updates have been completed, you will be redirected back to the site's home page.
 
 11. Once you have updated the Drupal core and its dependencies, you can run the **composer require** command to update any outdated Drupal contrib projects. To check which Drupal contrib projects are outdated, you can run the **composer outdated** command. In your specific project, you found the following contrib projects were outdated, so you ran the following command to update them:
 
