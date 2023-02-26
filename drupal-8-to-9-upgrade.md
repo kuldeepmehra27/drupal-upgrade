@@ -8,7 +8,7 @@ Upgrading from Drupal 8 to Drupal 9 involves the following steps:
 
 3. **Check the status report:** Go to the Status Report page of your Drupal 8 site (Reports > Status Report) to check for any issues or warnings that may affect the upgrade process. Resolve any issues or warnings that are identified.
 
-4. **Use the Upgrade Status module:** Install and enable the [Upgrade Status module](https://www.drupal.org/project/upgrade_status) on your Drupal 8 site to check the compatibility of your site with Drupal 9 and to identify any issues that may arise during the upgrade process. Follow the instructions provided by the module to address any issues that are identified.
+4. **Use the upgrade status module:** Install and enable the [Upgrade Status module](https://www.drupal.org/project/upgrade_status) on your Drupal 8 site to check the compatibility of your site with Drupal 9 and to identify any issues that may arise during the upgrade process. Follow the instructions provided by the module to address any issues that are identified.
 
 5. **Upgrade to Drupal 9:** Once you have resolved any issues and ensured that your site is compatible with Drupal 9, you can begin the upgrade process. This can be done using the Upgrade Status module, which provides a link to the Drupal 9 upgrade page. [Environment requirements of Drupal 9](https://www.drupal.org/docs/understanding-drupal/how-drupal-9-was-made-and-what-is-included/environment-requirements-of-drupal-9) check this link.
 
