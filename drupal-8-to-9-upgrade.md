@@ -18,9 +18,7 @@ Upgrading from Drupal 8 to Drupal 9 involves the following steps:
 
 8. **Review your site's settings and configuration:** Review your site's settings and configuration to ensure that they are still appropriate for your site's needs.
 
-That's it! You have now upgraded your Drupal 8 site to Drupal 9.
-
-here is the official link how to [upgrade drupal 8 to 9](https://www.drupal.org/docs/upgrading-drupal/drupal-8-and-higher)
+  Here is the official link how to [upgrade drupal 8 to 9](https://www.drupal.org/docs/upgrading-drupal/drupal-8-and-higher)
 
 
 ## Tools for upgrading ##
