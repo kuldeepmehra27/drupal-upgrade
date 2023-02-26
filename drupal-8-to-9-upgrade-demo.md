@@ -8,7 +8,7 @@ Upgrading Drupal 8 to 9 using Composer is a more efficient and streamlined proce
 
     ![Drupal 8 status](/images/drupal8-status.png)
 
-3. To proceed with the Drupal 8 to 9 upgrade process, the next step is to install the **upgrade_status **module. This module helps to identify any issues with the site before and after the upgrade.
+3. To proceed with the Drupal 8 to 9 upgrade process, the next step is to install the **upgrade_status** module. This module helps to identify any issues with the site before and after the upgrade.
 ```
 composer require drupal/upgrade_status
 drush en upgrade_status
